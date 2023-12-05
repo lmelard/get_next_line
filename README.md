@@ -6,7 +6,7 @@ The "Get Next Line" project is a C programming task focused on developing a func
 # How It Works
 The primary goal is to create a function get_next_line which takes a file descriptor as an input and returns the next line from the file or stream. The function continues to return a new line upon each call until the end of the file is reached.
 
-# Function Prototype
+Function Prototype:
 ```
 char *get_next_line(int fd);
 ```
@@ -17,7 +17,7 @@ char *get_next_line(int fd);
 - ***Static Variables***: Utilizes static variables to maintain the state between function calls.
 - ***Multiple File Descriptors***: Capable of handling multiple file descriptors simultaneously without losing track of their read positions.
 
-# Implementation Challenges
+# 🧱 Implementation Challenges
 - ***Buffer Management***: Implementing an optimal buffer size for reading, which is defined at compile time with -D BUFFER_SIZE=n.
 - ***Static Variable Usage***: Learning to correctly use static variables to maintain the state of reading between multiple function calls.
 - ***Error Handling***: Robust error handling to account for various edge cases, such as empty lines or unexpected file changes.
@@ -28,8 +28,7 @@ Compile the program using the following command (example with a buffer size of 4
 ```
 cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c
 ```
-
-# To use `get_next_line` in your C program:
+To use `get_next_line` in your C program:
 
 - Include the header file: ``` #include "get_next_line.h" ```.
 - Call the function with a valid file descriptor.
