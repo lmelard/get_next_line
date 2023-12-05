@@ -33,7 +33,8 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c
 
 - Include the header file: ``` #include "get_next_line.h" ```.
 - Call the function with a valid file descriptor.
-Key Learnings
-File Descriptor Management: Gained insights into handling file I/O in C.
-Static Variables: Understood the usage and scope of static variables in C.
-Dynamic Memory Allocation: Enhanced skills in dynamic memory allocation and deallocation.
+
+# Key Learnings
+- ***File Descriptor Management***: Gained insights into handling file I/O in C.
+- ***Static Variables***: Understood the usage and scope of static variables in C.
+- ***Dynamic Memory Allocation***: Enhanced skills in dynamic memory allocation and deallocation.
