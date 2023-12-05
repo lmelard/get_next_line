@@ -1,6 +1,6 @@
 # get_next_line
 
-# Project overview
+# 👀 Project overview
 The "Get Next Line" project is a C programming task focused on developing a function to read content from a file descriptor line by line. This project emphasizes the use of static variables and offers a deep dive into file handling in C.
 
 # How It Works
@@ -11,7 +11,7 @@ The primary goal is to create a function get_next_line which takes a file descri
 char *get_next_line(int fd);
 ```
 
-# Key Features
+# 💡 Key Features
 - ***Line-by-Line Reading***: Efficiently reads and returns one line at a time from the file.
 - ***Memory Management***: Dynamically allocates and frees memory to store each line read from the file.
 - ***Static Variables***: Utilizes static variables to maintain the state between function calls.
@@ -22,7 +22,7 @@ char *get_next_line(int fd);
 - ***Static Variable Usage***: Learning to correctly use static variables to maintain the state of reading between multiple function calls.
 - ***Error Handling***: Robust error handling to account for various edge cases, such as empty lines or unexpected file changes.
 
-#Compilation and Usage
+# 🛠 Compilation and Usage
 Compile the program using the following command (example with a buffer size of 42):
 
 ```
@@ -34,7 +34,7 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c
 - Include the header file: ``` #include "get_next_line.h" ```.
 - Call the function with a valid file descriptor.
 
-# Key Learnings
+# 📚 Key Learnings
 - ***File Descriptor Management***: Gained insights into handling file I/O in C.
 - ***Static Variables***: Understood the usage and scope of static variables in C.
 - ***Dynamic Memory Allocation***: Enhanced skills in dynamic memory allocation and deallocation.
